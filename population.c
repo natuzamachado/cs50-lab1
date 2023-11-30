@@ -19,16 +19,18 @@ int main(void) {
     int years;
 
    // get positive integer starting at 9 from the user
-    do {
-        startSize = get_int("Start Size: ");
-        
+   
+    do 
+    {
+        startSize = get_int("Start Size: "); 
     } 
     while( startSize < 9 );
 
     do
     {
         endSize = get_int("End Size: ");
-    } while (endSize < 9);
+    } 
+    while (endSize < 9);
 
     /*
         calculates how many years it will take to reach
